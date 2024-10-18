@@ -101,7 +101,7 @@ var Aff = function () {
   }
 
   var Scheduler = function () {
-    var limit    = 1024;
+    var limit    = 16384;
     var size     = 0;
     var ix       = 0;
     var queue    = new Array(limit);
